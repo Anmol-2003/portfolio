@@ -1,0 +1,52 @@
+div.experience{
+    background-color: #030712;
+    height: 100%;
+    flex-direction: column;
+    padding: 25px 30px;
+}
+.experience-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.title p{
+    font-size: 30px; 
+    margin-bottom: 50px;
+    text-align: center; 
+    font-weight: 700;
+    color: white;
+    font-family: roboto mono;
+}
+
+.details p{
+    color: white;
+    font-size: 20px;
+}
+.experience-list ul{
+    flex-direction: column;
+    
+}
+.experience-details-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 150px;
+    gap: 100px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.icon{
+    width: 120px;
+    background-color: white;
+}
+p.title{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+p.duration{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+p.desc{
+    color: #9ca3af;
+}

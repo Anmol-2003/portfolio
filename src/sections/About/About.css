@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+div .about{
+    background-color: #1f2937;
+    height: 90vh;
+    padding-top: 50px;
+    color: white;
+}
+.info-container{
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-picture{
+    width: 250px;
+    margin-right: 100px;
+    box-shadow: 8px 8px 16px #030712;
+    border-radius: 8px;
+} 
+.text{
+    margin-top: 90px;
+}
+.name{
+    font-family: kanit;
+    font-size: 40px;
+}
+.about-me{
+    color: #d1d5db;
+    font-size: 16px;
+    font-family: kanito;
+}
+.location{
+    margin-top: 30px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.location-icon-img{
+    width: 16px;
+}
+
+.location p{
+    font-size: 14px;
+}
+.external-links{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 20px;
+}
+.github{
+    width: 22px;
+}
+.linkedin{
+    width: 22px;
+}
